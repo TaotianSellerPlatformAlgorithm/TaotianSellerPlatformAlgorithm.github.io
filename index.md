@@ -66,9 +66,6 @@
 
 Email：tieyi.lq@taobao.com
 
-微信：
-
-![img.png](assets/img/img.png)
 
 
 
