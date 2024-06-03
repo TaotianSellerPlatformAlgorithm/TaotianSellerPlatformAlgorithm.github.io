@@ -1,6 +1,9 @@
 
 
 # 团队介绍
+商家平台算法是链接用户、商家与淘宝平台的核心团队，拥有万亿级别的数据与计算资源，以及一群热情友好富有技术激情的小伙伴。等你来成就自我，一起让天下没有难做的生意。
+
+技术上，我们不断精进超大规模的商品、视频、直播、图文的召回、排序、重混排能力，包含跨域多模态与智能UI，同时通过深度强化学习技术优化推荐策略，设计智能流量机制，助力用户规模增长、商家及内容创作者成长。
 
 # 业务介绍
 ## 店铺
@@ -9,150 +12,63 @@
 <img src="assets/img/all_items.JPG" width="240"/>   
 </p>
 "全部宝贝"展现店铺内售卖的所有宝贝，搜推一体，手机淘宝顶级成交场景之一。  
-算法在该场景的主要优化工作包括：
+算法在该场景的主要工作包括：
 
-- 经典搜索推荐效率优化。样本构建，特征构建，模型优化（召回、粗排、精排、LTR、重排），训练目标优化，以及训练过程优化（含Reinforcement Learning）
-- 搜索相关性与用户体验优化。比如分词改写，相关性模型，激活承接页功能优化（搜索词推荐，热点趋势推荐等。）
-- 智能UI。如快捷筛选，宝贝价格优化，标题优化，背书与卖点信息优化等。
-- 端智能。根据用户实时行为，触发端上重排，重新请求，用户动线干预（如引导用户订阅店铺，分发优惠券）。
-
-
+- 经典商品搜索推荐效率优化。样本构建，特征构建，模型优化（召回、粗排、精排、LTR、重排），训练目标优化，以及训练过程优化（含Reinforcement Learning）。
+- 端智能。根据用户实时行为，触发端上重排，规划触发云端引擎重新请求，用户动线干预，如引导用户订阅店铺，分发优惠券。
+- 智能UI。如宝贝价格展现优化，标题优化，背书与卖点信息优化等。
+- 搜索相关性与用户体验优化。比如分词改写，相关性过滤。
+- 其他功能优化。如快捷筛选，搜索词推荐，店内热点趋势推荐等。
 
 ## 详情
 ## 关注
 ## BC通道
 
-# 招聘职位介绍
+# 招聘职位及要求
+1. 具备优秀的编码能力，扎实的数据结构和算法功底；
+2. 熟悉大规模机器学习/深度学习算法，具有搜推告等相关领域经验；
+3. 优秀的分析问题和解决问题的能力，对解决具有挑战性问题充满激情，不轻易放弃；
+4. 对技术有热情，对搜推广业务有自己的思考，能够用技术推动业务进步和变革；
+5. 有良好的沟通表达能力具有团队精神，有良好的团队协同能力；
+6. 在有影响力的计算机学术会议（SIGKDD、AAAI、SIGIR、ICML、NIPS、WWW、CIKM、ACL、RECSYS等）或期刊上发表过论文者优先。
+7. 职位层级P5-P7
 
 # 团队代表性技术
+- 2023年
+  - CMR 强化学习生成式重排模型，有机融入复杂业务意图，同时支持在线实时多目标权重调节。
+  - DPAN 显示建模用户相似推荐与相关推荐的偏好，带来更加多样性的推荐结果。
+  - Panel-MDP 打破强化学习线性MDP定义，有效建模2D 商品分布之间的相互影响。
+- 2022年
+  - XDM 通过引入曝光未点击宝贝序列强化用户理解，提升召回效果。
+  2020年
+  - ESM^2 引入加购与收藏，应对成交样本选择性偏差与正样本稀疏性，有效提升商品转化预估。
+  - GMCM 利用图结构，有效建模用户在手淘详情页上的细致行为，捕获用户购买兴趣。
+  - Multi-IPW与Multi-DR，利用propensity与Double Robust技术，从因果推断角度，实现无偏成交率预估。
+- 2019年
+  - SDM手淘最早的生成式召回模型之一。
+  - DSIN多session的用户兴趣与意图理解，用于点击率预估。
+  - ldcTree 级联深度树模型，有效捕获稀疏正信号，用于成交转化率预估。
+
+# 团队典型代表作
+* KDD2023: Controllable Multi-Objective Re-ranking with Policy Hypernetworks
+* SIGIR-AP2023: Reinforcement Re-ranking with 2D Grid-based Recommendation Panels
+* CIKM2023: DPAN: Dynamic Preference-based and Attribute-aware Network for Relevant Recommendations
+* DASFAA2022: XDM: Improving Sequential Deep Matching with Unclicked User Behaviors for Recommender System
+* SIGIR2020: Entire Space Multi-Task Modeling via Post-Click Behavior Decomposition for Conversion Rate Prediction
+* SIGIR2020: GMCM: Graph-based Micro-behavior Conversion Model for Post-click Conversion Rate Estimation
+* WWW2020: Large-scale causal approaches to debiasing post-click conversion rate estimation with multi-task learning
+* CIKM2019: SDM: Sequential Deep Matching Model for Online Large-scale Recommender System
+* IJCAI2019: Deep Session Interest Network for Click-Through Rate Prediction
+* AAAI2019: Multi-Level Deep Cascade Trees for Conversion Rate Prediction in Recommendation System
 
 # 我要和Boss直接聊
+团队Leader：林泉（花名铁衣）
+
+Email：tieyi.lq@taobao.com
+
+微信：
+
+![img.png](assets/img/img.png)
 
 
 
-
-
-=========================== Archived ========================
----
-layout: default
----
-
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
