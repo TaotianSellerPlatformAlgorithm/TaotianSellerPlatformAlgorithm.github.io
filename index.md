@@ -6,7 +6,7 @@
 ## 店铺
 ### 全部宝贝
 <p align = "center">
-<img src="assets/img/all_items.JPG" width="300"/>   
+<img src="assets/img/all_items.JPG" width="240"/>   
 </p>
 "全部宝贝"展现店铺内售卖的所有宝贝，搜推一体，手机淘宝顶级成交场景之一。  
 算法在该场景的主要优化工作包括：
